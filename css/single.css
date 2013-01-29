@@ -1,0 +1,605 @@
+#single-posts article {
+	width: 650px;
+	display:block;
+	float: left;
+	padding-right: 40px;
+	display: block;
+	height: auto;
+	margin: 20px 0px 20px -10px;
+}
+
+#single-posts article p {
+width: 650px;
+	margin-bottom: 14px;
+	font: 14px/15px 'PT Serif', serif;
+	line-height: 22px;
+	text-align: left;
+	
+}
+
+#single-posts {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#single-posts #leftcol {
+float: left;
+	width: 710px;
+	display: block;
+color: #1b1b1b;
+font: 12px/15px 'PT Serif', serif;
+
+
+}
+
+leftcol {
+float: left;
+	width: 710px;
+	display: block;
+	/*padding: 30px 0px 20px 20px;*/
+	margin-right: 0px;
+	margin-top:  0px;
+}
+
+
+
+#rightcol {
+float: left;
+	display: block;
+	width: 335px;
+	padding: 0px 0px 10px 0px;
+	margin-left: 30px;
+}
+
+#rightcol .dp_media_container{
+
+	padding-bottom: 20px;	
+	
+}
+
+#bg {
+	width: 100%;
+	background-color: #fff;	
+	height: auto;
+	padding-bottom: 10px;
+}
+
+.entry {
+	margin-left: 30px;
+}
+
+#single-posts .entry blockquote  { 
+background-image: url(../images/quote-open.png), url(../images/quote-close.png);
+background-position: 10px top, 10px bottom;
+background-repeat: no-repeat;
+position: relative;
+  width: 250px;
+  margin-top: 5px;
+  margin-right: -20px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  padding-left: 15px;
+padding-top: 40px;
+padding-bottom: 25px;
+  border-left: 1px solid #ccc;
+  font-style: italic;
+  float: right;
+  display: inline-block;
+   font-family: 'Borda-Medium';
+}
+	#single-posts  .entry blockquote p {   width: 250px;
+		font-size: 24px; line-height: 26px; font-family: 'Borda-Medium';
+	}
+	
+	
+#single-posts h1 {
+	font-size: 60px;
+	line-height: 70px;
+		padding-top: 30px;
+
+}
+
+#single-posts h2 {
+	font-size: 36px;
+	line-height: 40px;
+	text-align: left;
+	
+}
+
+#single-posts h3 {
+	font-size: 30px;
+	line-height: 34px;
+}
+
+#single-posts h4 {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#single-posts h5 {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#single-posts h6 {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#single-posts .entry ol li {
+	list-style: decimal;
+	margin-left:  40px;
+	font-size: 14px;
+}
+
+#single-posts .entry ul li {
+	list-style: circle;
+	margin-left:  40px;
+	font-size: 14px;
+}
+
+#single-posts .postinfo {
+	padding-left:  5px;
+	color: #a0a0a0;
+	font: 12px 'Borda-Medium';
+}
+
+#single-posts .postinfo a {
+	color: #a0a0a0;
+	font: 12px 'Borda-Medium';
+}
+
+.excerpt {
+	padding: 10px 0px 10px 3px;
+	color: #848484;
+	font: 18px 'Borda-Medium';
+	font-weight: normal;
+}
+
+
+#single-posts .share-contain {
+	margin-left: 1020px;
+		margin-top: -20px;
+		
+}
+
+
+
+/* added by Sawyer for the gallery */
+
+/* @group Untitled Group */
+
+/*.dp_media_container, .dp-feat-img-wrap{
+	position: relative;
+}*/
+
+/* @end */
+
+
+/*	jCarousel
+ ************************************************/
+
+
+
+#flightsoffancy2 {
+	width: 335px;
+	height: 24px;
+	margin-bottom:  10px;
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	background: url(../images/flightsoffancy.png) no-repeat left bottom;
+}
+
+#twitterwidget {
+	background-image: url(../images/twitterwidget.png);
+	width: 335px;
+	height: 24px;
+	margin-bottom:  10px;
+
+}
+
+#followus {
+	background-image: url(../images/followus.png);
+	width: 335px;
+	height: 24px;
+	margin-bottom:  0px;
+
+}
+
+#followus-items {
+	margin-top:  -30px;
+	margin-left:170px;
+	margin-bottom: 15px;
+}
+
+#followus-items img {
+	opacity: 1.0;
+	margin-left: 15px;
+}
+
+
+#followus-items .tooltip {
+ outline: none;
+   text-decoration: none;
+  position: relative;
+}
+#followus-items .tooltip span {
+  margin-left: -999em;
+  position: absolute;
+    display: block;
+    height: 30px;
+}
+
+#followus-items .tooltip:hover span {
+  position: absolute;
+left:  -10px;
+top: 25px;
+  z-index: 99;
+  margin: 0 auto;
+  width: 50px;
+  border-radius: 5px 5px;
+  padding: 4px 5px 4px 5px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  
+ display: block;
+ height: 63px;
+ text-align: center;
+ color: #cbcbcb;
+ font: 12px 'Borda-Medium';
+ 
+}
+
+#followus-items .tooltip:hover em {
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+
+#followus-items img:hover {
+	opacity: 0.5;
+	-webkit-transition: all .5s ease-in-out;
+	  -moz-transition: all .5s ease-in-out;
+	  -o-transition: all .5s ease-in-out;
+	  -ms-transition: all .5s ease-in-out;
+	  transition: all .5s ease-in-out;
+}
+#relatedstories {
+	background-image: url(../images/relatedstories.png);
+	width: 335px;
+	height: 24px;
+	margin-bottom:  0px;
+		border-top: 1px solid #ccc;
+		background-position: left bottom;
+		background-repeat: no-repeat;
+		padding-top: 30px;
+		width: 700px;
+	
+
+}
+
+#infinitecomments {
+	background-image: url(../images/infinitecomments.png);
+	width: 430px;
+	height: 24px;
+	margin-bottom:  20px;
+
+}
+
+
+
+
+#comments {
+	float: left;
+	width: 680px;
+	display: block;
+			border-top: 1px solid #ccc;
+					padding: 30px 0px 20px 0px;
+					background-color: #fff;
+			
+	
+}
+
+#comments h3 {
+		font-size: 30px;
+		margin-bottom:  10px;
+		padding-top: 5px;
+		margin-left: 0px;
+			font-weight: normal;
+		
+}
+
+#global-nav h4 {
+		font-family: 'Borda-Medium';
+		
+	}
+	
+	#single-post-share {
+		width: 50px;
+		float: right;
+		margin-top:  50px;
+		
+	}
+		
+		#single-post-share img {
+			opacity: 0.3;
+			margin-bottom: 10px;
+			
+		}
+		
+		#single-post-share img:hover {
+			opacity: 0.7;
+			
+		}
+		
+		
+		#single-post-share .tooltip {
+		 outline: none;
+		   text-decoration: none;
+		  position: relative;
+		}
+		#single-post-share .tooltip span {
+		  margin-left: 0em;
+		  position: absolute;
+		    display: block;
+		    height:25px;
+		    width: 0px;
+		    left: 30px;
+		    top: -10px;
+		    border-radius: 0px 5px 5px 0px;
+		    padding: 5px 0px 0px 5px;
+		    background-color: #fff;
+		    overflow: hidden;
+		}
+		
+		.classic {
+			 padding: 5px 5px 3px 5px;
+		}
+		
+		#single-post-share .tooltip:hover span {
+		  position: absolute;
+		left: 30px;
+		top: -10px;
+		  z-index: 99;
+		  margin: 0 auto;
+		  width: 90px;
+		  border-radius: 0px 5px 5px 0px;
+		  padding: 5px 0px 0px 5px;
+		  background-color: #808080;
+		 display: block;
+		 height: 25px;
+		 text-align: center;
+		 color: #cbcbcb;
+		 font: 12px 'Borda-Medium';
+		 -webkit-transition: all .5s ease;
+		   -moz-transition: all .5s ease;
+		   -o-transition: all .5s ease;
+		   -ms-transition: all .5s ease;
+		   transition: all .5s ease;
+		}
+		
+		#single-post-share .tooltip:hover em {
+		  font-weight: bold;
+		  display: block;
+		  padding: 0.2em 0 0.6em 0;
+		}
+		
+		#single-post-share img:hover {
+			opacity: 0.5;
+			-webkit-transition: all .5s ease;
+			  -moz-transition: all .5s ease;
+			  -o-transition: all .5s ease;
+			  -ms-transition: all .5s ease;
+			  transition: all .5s ease;
+		}
+		
+}
+/*------------RELATED POSTS-------------*/
+
+	h3.related {
+		font-size: 24px;
+		margin-bottom:  -5px;
+		padding-top: 15px;
+		margin-left: 0px;
+			float: left;
+			font-weight: normal;
+		
+	}
+	
+	
+	.relatedposts {
+			padding: 5px 10px 0px 10px;
+			height: 265px;
+			width: 680px;
+		display: block;
+	/*	margin-top:  -10px;*/
+			float: left;
+			margin-bottom: 30px;
+			margin-left:  -15px;	
+			margin-top: 0px;	
+			line-height: 13px;
+			
+	}
+	
+	.relatedposts h3 {
+		letter-spacing: -1px;
+		font-size: 20px;
+	font-size: 16px; font-family: 'Borda-Medium'; line-height: 18px;
+	}
+	
+	.relatedposts a {
+	color: #333;
+		text-decoration: none;
+		font-size: 12px;
+		height: 150px;
+		text-align: center;
+	}
+	
+	.relatedposts a:hover {
+		color: #134364;
+	}
+	
+	/*h4.related {
+		font: 22px 'Oswald', sans-serif;
+	}*/
+	
+	/*.relatedpost-contain {
+		float: left;
+		width:  150px;
+		margin-right: 40px;
+		display: block;
+		height: 100%;
+	}*/
+	
+	
+	/*.relatedposts img {
+			width: 150px;
+			height: 80px;
+			opacity: 1.0;
+			padding:  0px;
+			margin-bottom: 7px;
+		}*/
+		
+		.relatedposts img:hover {
+		opacity: 0.8;	
+		}
+		
+		/*------------RELATED POSTS END-------------*/
+		
+		.credit {font-size: 10px; text-transform: uppercase; padding-bottom: 10px;}
+		
+		.post-end-logo {
+		width: 50px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+		}
+		
+		.post-end-logo img {
+		opacity: 1.0;
+		-webkit-transition: all .5s ease;
+ -moz-transition: all .5s ease-in-out;
+ -o-transition: all .5s ease-in-out;
+ -ms-transition: all .5s ease-in-out;
+ transition: all .5s ease-in-out;
+}
+		
+		.post-end-logo img:hover {
+		opacity: 0.5;
+		-webkit-transition: all .5s ease;
+ -moz-transition: all .5s ease-in-out;
+ -o-transition: all .5s ease-in-out;
+ -ms-transition: all .5s ease-in-out;
+ transition: all .5s ease-in-out;
+ }
+	
+		
+		.post-end-twitter {
+		width: 155px;
+		margin: 0 auto;
+				padding-bottom: 30px;
+
+		}
+		
+		.yarpp-thumbnail-time {
+			margin: 10px 0px 7px 30px;
+			color: #888888;
+				font-weight: normal;
+				text-decoration: none;
+				font-size: 12px;
+				text-align: center;
+				font-family: 'Borda-Medium';
+				
+		}
+		
+		.yarpp-thumbnail a:hover {
+	
+				text-decoration: none;
+		}
+		
+		#social-post {
+			margin-bottom: 20px;
+		}
+		
+		#social-post p {
+			float: left;
+			padding: 0px 30px 0px 0px;
+		}
+		
+		#post300 {
+			width: 335px;
+			margin-top: -15px;
+			height: 295px;
+		}
+		
+		#post300 p {
+			font-size: 10px;
+			padding: 3px 0px 3px 0px;
+			color: #929292;
+		}
+		
+		#post300 li {
+			width: 300px;
+			height: 250px;
+			margin: 0 auto;
+			padding-top:  10px;
+		}
+		
+		.widget {
+			margin-top: 10px;
+			padding-top: 20px;
+			border-top: 1px solid #ccc;
+			float: clear;
+			width: 335px;
+		}
+		.widget h2 {
+			color: #2f2f2f;
+			font-size: 20px;
+			padding-bottom: 10px;
+		}
+		
+		/*------------Infintie Tips Latest-------------*/
+		
+		#infinitetips {
+			background-image: url(images/infinitetips.png);
+		width: 335px;
+		height: 24px;
+		margin-bottom:  10px;
+		}
+		
+		.twentyten-latest-post {margin-bottom: 0px; padding-right: 15px; height: 45px;  /* Old browsers */
+		background: #ffffff;
+		
+		}
+		
+		
+		.twentyten-latest-post .wtf {
+		margin-top: -10px;
+		}
+		
+		.twentyten-latest-post:hover { background: #f7f7f7;
+		}
+		.twentyten-latest-post a { font-size: 14px; font-family: 'Borda-Medium'; text-decoration: none; color: #1f1f1f; width: 335px; font-weight: normal;
+		}
+		.twentyten-latest-post a:hover { color: #000000; font-weight: normal;
+		}
+		.twentyten-latest-post img {float: left; margin: 0px 20px 0px 0px;  border: 0px;  vertical-align: middle; padding-top: 10px;
+		}
+		
+		.twentyten-latest-post  .clear {clear: both;}
+		
+		/*------------Infintie Tips Latest-------------*/
+		
+		.dp_content_container.current{
+		 font: 14px/15px 'PT Serif', serif;
+		 line-height: 22px;
+		 text-align: left;
+		}
+		
+			.dp_content_container.current blockquote {   width: 250px;
+			font-size: 24px; line-height: 26px; font-family: 'Borda-Medium';
+		}
+		
+		
+		

@@ -1,0 +1,32 @@
+/* @license
+ * MyFonts Webfont Build ID 2454791, 2013-01-20T21:01:25-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Borda Medium by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/borda/medium/
+ * 
+ * Webfont: Borda by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/borda/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2454791
+ * Webfonts copyright: Copyright &#x00A9; 2012 by Jonathan Hill. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/257507");
+
+  
+@font-face {font-family: 'Borda-Medium';src: url('webfonts/257507_0_0.eot');src: url('webfonts/257507_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/257507_0_0.woff') format('woff'),url('webfonts/257507_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Borda-Regular';src: url('webfonts/257507_1_0.eot');src: url('webfonts/257507_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/257507_1_0.woff') format('woff'),url('webfonts/257507_1_0.ttf') format('truetype');}
+ 
