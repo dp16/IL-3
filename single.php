@@ -47,8 +47,11 @@ Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_tim
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <div class="atrak-gallery-image-wrap">
-	<span class="dp_carousel_nav_prev" data-tooltip="Shift + ←" original-title=""></span>
-	<span class="dp_carousel_nav_next" data-tooltip="Shift + →" original-title=""></span>
+	<?php if(get_dp_sections($post->ID)){ ?>
+		<span class="dp_carousel_nav_prev" data-tooltip="Shift + ←" original-title=""></span>
+		<span class="dp_carousel_nav_next" data-tooltip="Shift + →" original-title=""></span>
+	<?php } ?>
+	
 	<?php 
 	// The featured image and module feature images
 	if( has_post_thumbnail() ){
@@ -58,7 +61,9 @@ Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_tim
 	} ?>
 </div>
 
-<span class="dp-carousel-count"><span class="dp-carousel-count-current"></span><span class="dp-carousel-count-total"></span></span>
+<?php if(get_dp_sections($post->ID)){ ?>
+	<span class="dp-carousel-count"><span class="dp-carousel-count-current"></span><span class="dp-carousel-count-total"></span></span>
+<?php } ?>
 
 <?php 
 // The slider + navigation
