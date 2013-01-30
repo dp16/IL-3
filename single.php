@@ -46,7 +46,7 @@ Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_tim
 <article>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-<div class="atrak-gallery-image-wrap">
+<div class="atrak-gallery-image-wrap<?php if(get_dp_sections($post->ID)) echo ' dp-gallery-post'; ?>">
 	<?php if(get_dp_sections($post->ID)){ ?>
 		<span class="dp_carousel_nav_prev" data-tooltip="Shift + ←" original-title=""></span>
 		<span class="dp_carousel_nav_next" data-tooltip="Shift + →" original-title=""></span>
