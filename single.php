@@ -34,9 +34,24 @@
 				</div>
 
 <h1><?php the_title(); ?></h1>
-<div class="excerpt"><?php the_excerpt(); ?></div>
+
+<?php
+
+	if( get_post_type( $post->ID ) == 'dp_module' ){
+		$parents = get_post_ancestors( $post->ID );
+		$parent_id = $parents[count($parents) - 1];
+	} else {
+		$parent_id = $post->ID;
+	}
+
+	$parent_post = get_post($parent_id);
+	$excerpt = apply_filters( 'get_the_excerpt', $parent_post->post_excerpt );
+
+?>
+
+<div class="excerpt"><?php echo $excerpt; ?></div>
 <div class="postinfo">
-Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?>. <?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?> <?php the_field('line'); ?><?php the_field('city'); ?>  
+Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?>. <?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?> <?php if(function_exists('the_field')) the_field('line'); ?><?php if(function_exists('the_field')) the_field('city'); ?>  
 </div>
 
  	
