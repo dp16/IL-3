@@ -17,6 +17,16 @@ $dp_custom_repeater_fields = array(
 
 );
 
+// Only display posts in search
+function DPSearchFilter($query) {
+	if ($query->is_search) {
+		$query->set('post_type', 'post');
+	}
+	return $query;
+}
+
+add_filter('pre_get_posts','DPSearchFilter');
+
 // Define the HTML that's displayed below the module content.
 // Useful for displaying the custom fields that were defined above.
 
